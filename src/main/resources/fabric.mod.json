@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "chat-utilities",
+  "version": "${version}",
+  "name": "Chat Utilities",
+  "description": "A mod that makes your Chat Better",
+  "authors": [
+    "DasHomi"
+  ],
+  "contact": {
+    "sources": "https://github.com/DasHomi/chat-utilities",
+    "issues": "https://github.com/DasHomi/chat-utilities/issues",
+    "homepage" : "https://github.com/DasHomi/chat-utilities"
+  },
+  "license": "MIT",
+  "icon": "assets/chat-utilities/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.dashomi.chatutilities.ChatUtilitiesClient"
+    ]
+  },
+  "mixins": [
+    "chat-utilities.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.19.1"
+  }
+}
